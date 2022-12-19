@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="notification-container">
+      <div class="top-bar">
+        <span><h2>Notifications</h2> <div class="amount-notif">3</div></span>
+        <span class="button-unread">Mark all as read</span>
+      </div>
+      <div class="body-notif">
+        <div class="notif-section unread">
+          <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Mark Webber</a> reacted to your recent post <a href="#" class="post-notif">My first tournament friday!</a> <span class="dot-unread">●</span></p>
+              <p class="time">1m ago</p>
+          </div>
+        </div>
+
+        <div class="notif-section unread">
+          <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Angela Gray</a> followed you <span class="dot-unread">●</span></p>
+              <p class="time">5m ago</p>
+          </div>
+        </div>
+
+        <div class="notif-section unread">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Jacob Thompson</a> has joined your group <a href="#" class="group-notif">Chess Club</a> <span class="dot-unread">●</span></p>
+              <p class="time">1 day ago</p>
+          </div>
+        </div>
+
+        <div class="notif-section">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Rizky Hasanuddin</a> sent you a private message</p>
+              <p class="time">5 days ago</p>
+              <div class="message-private-notif">
+                <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                I'm already having lots of fun and improving my game.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="notif-section">
+          <div class="notif-flex-adjust-post">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith profile picture">
+            <div class="notif-information">
+                <p class="notif-container"><a href="#" class="notif-name">Kimberly Smith</a> commented on your picture</p>
+                <p class="time">1 week ago</p>
+            </div>
+          </div>
+          <img src="assets/images/image-chess.webp" alt="chess image of post Kimberly Smith" class="img-post">
+        </div>
+
+        <div class="notif-section">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Nathan Peterson</a> reacted to your recent post <a href="#" class="post-notif">5 end-game strategies to increase your win rate</a></p>
+              <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+
+        <div class="notif-section">
+          <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim  profile picture">
+          <div class="notif-information">
+              <p class="notif-container"><a href="#" class="notif-name">Anna Kim</a> has left the group <a href="#" class="group-notif">Chess Club</a></p>
+              <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
